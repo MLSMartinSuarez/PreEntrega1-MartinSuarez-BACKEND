@@ -1,0 +1,12 @@
+[
+	{
+		"id": "7d03024e-2e4d-4142-8e74-3a25d836080d",
+		"status": true,
+		"title": "Remera",
+		"description": "remera de algodon",
+		"code": "random1",
+		"price": 50,
+		"stock": 10,
+		"category": "remera"
+	}
+]
