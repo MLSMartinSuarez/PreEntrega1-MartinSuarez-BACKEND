@@ -3,7 +3,7 @@
 import fs from "fs";
 import { v4 as uuid } from "uuid";
 
-class ProducstManager {
+class ProductsManager {
   constructor(path) {
     this.path = path;
   }
@@ -75,4 +75,4 @@ class ProducstManager {
   }
 }
 
-export default ProducstManager;
+export default ProductsManager;

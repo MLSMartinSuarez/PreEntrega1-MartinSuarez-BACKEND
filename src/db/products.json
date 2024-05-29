@@ -1,12 +1,48 @@
 [
 	{
-		"id": "7d03024e-2e4d-4142-8e74-3a25d836080d",
+		"id": "3f40f324-4279-4e88-9b03-6c79da83672d",
 		"status": true,
-		"title": "Remera",
-		"description": "remera de algodon",
-		"code": "random1",
-		"price": 50,
-		"stock": 10,
-		"category": "remera"
+		"title": "Jean",
+		"description": "Jeans rasgados",
+		"category": "jeans",
+		"code": "1405",
+		"price": 150,
+		"stock": 5
+	},
+	{
+		"id": "b8b780ae-72b6-4a6d-8aed-afed6b30cf77",
+		"status": true,
+		"title": "Bufanda",
+		"description": "Bufanda corta",
+		"category": "Bufandas",
+		"price": 20,
+		"stock": 5
+	},
+	{
+		"id": "ea741f99-b9d4-482d-bdfb-2ca06a164672",
+		"status": true,
+		"title": "Medias",
+		"description": "Medias Nike",
+		"category": "Medias",
+		"price": 15,
+		"stock": 5
+	},
+	{
+		"id": "88255016-cc09-4b34-beff-3d489aaa1c6d",
+		"status": true,
+		"title": "Guantes",
+		"description": "Guantes Rojos",
+		"category": "Guantes",
+		"price": 25,
+		"stock": 5
+	},
+	{
+		"id": "5f3225d0-3a0d-4838-b8ad-53aacb1319db",
+		"status": true,
+		"title": "Bermuda",
+		"description": "Bermuda Verde",
+		"category": "Bermudas",
+		"price": 80,
+		"stock": 5
 	}
 ]

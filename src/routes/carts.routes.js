@@ -2,11 +2,8 @@ import { Router } from "express";
 import { __dirname } from "../path.js";
 import CartsManager from "../managers/carts.manager.js";
 
-
-
 const cartRouter = Router();
 const cartsManager = new CartsManager(`${__dirname}/db/carts.json`);
-
 
 
 cartRouter.get("/:cartID", async (req, res) => {

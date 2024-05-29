@@ -1,0 +1,183 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 0%;
+    color: #ffffff;
+    background-image: url("https://static-cdn.jtvnw.net/jtv_user_pictures/3e1680b8-ce78-46d3-a228-2d5325c3519f-profile_banner-480.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.827);
+    
+}
+
+.title{
+    margin-top: 50px;
+    letter-spacing: 5px;
+    color: #eeff00;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.683);
+    border-radius: 20px;
+    border: 1px solid #eeff00;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li a {
+    text-decoration: none;
+    color: #eeff00;
+    padding: 20px;
+}
+
+li a:hover {
+    font-weight: 300;
+    color: rgb(234, 234, 195)
+}
+ 
+.list-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    gap: 70px;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.222);
+    margin: 2px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.list-product{
+    color: #eeff00;
+}
+
+p{
+    margin: 2px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.card {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 150px;
+    background-color: #0000006b;
+    text-align: center;
+    
+}
+
+.card:hover {
+    border: 1px solid #eeff00;
+}
+
+.product-name{
+    color: #eeff00;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.price-stock {
+    font-size: 15px;
+    margin: 5px 0;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.product-delete-btn {
+    background-color: #eeff0052;
+    color: #000000;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    
+.product-delete-btn:hover {
+    background-color: #eeff00;
+}
+    
+
+.realtimeAddproducts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleRealTime{
+    letter-spacing: 2px;
+    color: #eeff00;
+}
+
+.form-Container{
+    margin-right: 50px;
+}
+
+.form-Product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}   
+    
+.form-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 16px;
+}
+    
+.addbtn {
+    background-color: #eeff0052;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    
+.addbtn:hover {
+    background-color: #eeff00;
+}
+        
+label {
+    margin-right: 10px;
+}    
+    
+
+
+

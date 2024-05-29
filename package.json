@@ -1,5 +1,5 @@
 {
-  "name": "preentrega-1",
+  "name": "preentrega-2",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -12,6 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "socket.io": "^4.7.5",
     "uuid": "^9.0.1"
   }
 }
